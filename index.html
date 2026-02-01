@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kaaviya Ramesh - Java & Web Developer Portfolio. IT student specializing in web development, Java programming, and machine learning.">
+  <meta name="keywords" content="Java Developer, Web Developer, IT Student, Portfolio, React, Machine Learning">
+  <title>Kaaviya Ramesh | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <!-- Left: Signature/Name -->
+      <a class="brand" href="#home">
+        <span class="brand__name">Kaaviya Ramesh</span>
+        <span class="brand__tag">Portfolio</span>
+      </a>
+
+      <!-- Mobile toggle -->
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" id="navToggle">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Links -->
+      <ul class="nav__links" id="navLinks">
+        <li><a class="nav__link active" href="#home" data-section="home">Home</a></li>
+        <li><a class="nav__link" href="#skills" data-section="skills">Skills</a></li>
+        <li><a class="nav__link" href="#about" data-section="about">About</a></li>
+        <li><a class="nav__link" href="#achievements" data-section="achievements">Achievements</a></li>
+        <li><a class="nav__link" href="#projects" data-section="projects">Projects</a></li>
+        <li><a class="nav__link" href="#internships" data-section="internships">Internships</a></li>
+        <li><a class="nav__link" href="#contact" data-section="contact">Contact</a></li>
+      </ul>
+
+      <!-- Right: Contact button -->
+      <a class="btn btn--outline nav__cta" href="#contact">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO / HOME -->
+    <section id="home" class="section hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="kicker fade-in">Hey, I'm <b>Kaaviya</b> 👋</p>
+          <h1 class="hero__title fade-in">
+            <span class="gradient-text">Web</span><br>Developer
+          </h1>
+          <p class="hero__subtitle fade-in">
+            Enthusiastic IT student focused on building clean, responsive web apps and strong Java fundamentals.
+          </p>
+
+          <div class="hero__actions fade-in">
+            <a class="btn btn--primary" href="#contact">
+              <span>Get in touch</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a class="btn btn--ghost" href="#projects">View Projects</a>
+          </div>
+
+          <div class="hero__meta fade-in">
+            <span class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M8 8.5C9.38071 8.5 10.5 7.38071 10.5 6C10.5 4.61929 9.38071 3.5 8 3.5C6.61929 3.5 5.5 4.61929 5.5 6C5.5 7.38071 6.61929 8.5 8 8.5Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 14C10.5 14 14 11 14 8C14 5 11.3137 2 8 2C4.68629 2 2 5 2 8C2 11 5.5 14 8 14Z" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              Puducherry, India
+            </span>
+
+            <span class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M2.5 5.5L7.5 8.5L12.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2.5 5.5V10.5C2.5 11.0523 2.94772 11.5 3.5 11.5H12.5C13.0523 11.5 13.5 11.0523 13.5 10.5V5.5C13.5 4.94772 13.0523 4.5 12.5 4.5H3.5C2.94772 4.5 2.5 4.94772 2.5 5.5Z" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              kaaviyaramesh346@gmail.com
+            </span>
+
+            <span class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5.5 2.5C5.5 2.5 6 2.5 6.5 4C6.5 4 8 3 9.5 3C11 3 12.5 4 12.5 4C12.5 4 13 2.5 13.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M3.5 5.5C3.5 4.67157 4.17157 4 5 4H11C11.8284 4 12.5 4.67157 12.5 5.5V12C12.5 12.8284 11.8284 13.5 11 13.5H5C4.17157 13.5 3.5 12.8284 3.5 12V5.5Z" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              +91 9342777166
+            </span>
+          </div>
+
+          <div class="hero__links fade-in">
+            <a href="https://github.com/Kaaviya346" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+            <a href="https://linkedin.com/in/kaaviya-r-5a0a65298" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+            <a href="https://www.hackerrank.com/profile/kaaviyaramesh346" target="_blank" rel="noopener noreferrer" class="social-link">HackerRank</a>
+            <a href="https://leetcode.com/u/Kaaviya_Ramesh/" target="_blank" rel="noopener noreferrer" class="social-link">LeetCode</a>
+          </div>
+        </div>
+
+        <div class="hero__imageWrap">
+          <div class="blob"></div>
+          <div class="image-wrapper">
+            <img class="hero__image" src="assets/img/kaaviya.png" alt="Kaaviya Ramesh photo" />
+          </div>
+          <div class="spark spark--1">✦</div>
+          <div class="spark spark--2">✦</div>
+          <div class="spark spark--3">✦</div>
+          <div class="spark spark--4">✦</div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="kicker">My Skills</p>
+        <h2 class="section__title">My Expertise</h2>
+
+        <div class="grid cards">
+          <article class="card" data-animate>
+            <div class="card__icon"><img src="assets/icons/java.png" alt="Java icon" /></div>
+            <h3>Java</h3>
+            <p>Strong foundation in Java, OOP, problem solving, and backend basics.</p>
+            <div class="card__glow"></div>
+          </article>
+
+          <article class="card" data-animate>
+            <div class="card__icon"><img src="assets/icons/web.png" alt="Web icon" /></div>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap, React — building responsive UI and forms.</p>
+            <div class="card__glow"></div>
+          </article>
+
+          <article class="card" data-animate>
+            <div class="card__icon"><img src="assets/icons/db.png" alt="Database icon" /></div>
+            <h3>Databases</h3>
+            <p>MySQL, Oracle, MS SQL Server — queries, schema basics, and data handling.</p>
+            <div class="card__glow"></div>
+          </article>
+
+          <article class="card" data-animate>
+            <div class="card__icon"><img src="assets/icons/ai.png" alt="AI icon" /></div>
+            <h3>AI / ML</h3>
+            <p>Basic ML workflow + projects like deepfake detection and model evaluation.</p>
+            <div class="card__glow"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- ABOUT -->
+<section id="about" class="section section--soft">
+  <div class="container about2__grid">
+
+    <!-- Left: Image -->
+    <div class="about2__imageWrap" data-animate>
+      <div class="about2__glow"></div>
+
+      <div class="about2__image">
+        <img src="assets/img/about-kaaviya.png" alt="Kaaviya Ramesh" />
+      </div>
+
+      <div class="about2__miniCard">
+        <p class="miniCard__title">Currently</p>
+        <p class="miniCard__text">B.Tech IT • 2023 – 2027</p>
+	<p class="miniCard__text">CGPA • 8.86</p>
+      </div>
+    </div>
+
+    <!-- Right: Content -->
+    <div class="about2__content">
+      <p class="kicker" data-animate>About Me</p>
+      
+
+      <p class="about2__desc" data-animate>
+        I’m Kaaviya Ramesh, a Java Developer passionate about developing efficient solutions and creating user-friendly web applications. I have a strong foundation in Java, OOP, and front-end development, and I enjoy turning ideas into working projects with clean design and proper functionality. I’m eager to apply my skills in a professional environment and contribute to a team that builds impactful software.
+      </p>
+
+     
+
+
+      <!-- Buttons -->
+      <div class="about2__actions" data-animate>
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="#contact" class="btn btn--outline">Contact Me</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      <!-- Strength chips -->
+      <div class="about2__chips" data-animate>
+        <span class="chip2">Java</span>
+        <span class="chip2">OOP</span>
+        <span class="chip2">React</span>
+        <span class="chip2">Problem Solving</span>
+        <span class="chip2">Communication</span>
+      </div>
+
+      <!-- Timeline -->
+      <div class="about2__timeline" data-animate>
+        <div class="timelineItem">
+          <span class="dot"></span>
+          <div>
+            <h4>B.Tech IT — SMVEC</h4>
+            <p>Focusing on web development, Java, and projects for placements.</p>
+          </div>
+        </div>
+
+        <div class="timelineItem">
+          <span class="dot"></span>
+          <div>
+            <h4>Internship Experience</h4>
+            <p>Web development + AI/ML virtual internship exposure.</p>
+          </div>
+        </div>
+
+        <div class="timelineItem">
+          <span class="dot"></span>
+          <div>
+            <h4>Goal</h4>
+            <p>Become a confident Java / Web developer and build impactful products.</p>
+          </div>
+        </div>
+      </div>
+
+          </div>
+
+  </div>
+</section>
+
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2 class="section__title">My Achievements</h2>
+
+        <div class="grid achievements">
+          <article class="ach" data-animate>
+            <div class="ach__image">
+              <img src="assets/img/ach-innovit25.jpg" alt="Innovit 25 achievement" />
+              <div class="ach__overlay"><span class="badge">National Level</span></div>
+            </div>
+            <div class="ach__body">
+              <h3>Innovit'25</h3>
+              <p><b>1st Runner-Up</b> – National Level Symposium</p>
+            </div>
+          </article>
+
+          <article class="ach" data-animate>
+            <div class="ach__image">
+              <img src="assets/img/ach-youthtalk.jpg" alt="Youth talk achievement" />
+              <div class="ach__overlay"><span class="badge">Regional Level</span></div>
+            </div>
+            <div class="ach__body">
+              <h3>Youth Talk</h3>
+              <p><b>Regional Level Prefinalist</b> – Communication & public speaking</p>
+            </div>
+          </article>
+
+          <article class="ach" data-animate>
+            <div class="ach__image">
+              <img src="assets/img/ach-nptel-java.jpg" alt="NPTEL Java certificate" />
+              <div class="ach__overlay"><span class="badge">Top 1%</span></div>
+            </div>
+            <div class="ach__body">
+              <h3>NPTEL Java</h3>
+              <p><b>Elite + Gold</b> – Programming in Java</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--soft">
+      <div class="container">
+        <div class="section__top">
+          <h2 class="section__title">My Projects</h2>
+          <a class="btn btn--pink" href="https://github.com/Kaaviya346" target="_blank" rel="noopener noreferrer">
+            Visit My GitHub
+          </a>
+        </div>
+
+        <div class="grid projects">
+          <article class="project" data-animate>
+            <div class="project__header"><h3>Deepfake Detection System</h3></div>
+            <p>ML-based system to detect manipulated audio/video by analyzing lip–audio synchronization patterns.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Machine Learning</span>
+            </div>
+          </article>
+
+          <article class="project" data-animate>
+            <div class="project__header"><h3>Post Management System</h3></div>
+            <p>Create, edit, delete posts with smooth navigation, validation, and search/filter features.</p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="project" data-animate>
+            <div class="project__header"><h3>Portfolio Website</h3></div>
+            <p>Responsive portfolio with sections, navigation, and contact form validation.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ INTERNSHIPS (NEW SECTION) -->
+    <section id="internships" class="section">
+      <div class="container">
+        <div class="internships" data-animate>
+          <div class="internships__header">
+            <h3>Internships</h3>
+            <a class="btn btn--outline btn--small"
+               href="https://linkedin.com/in/kaaviya-r-5a0a65298"
+               target="_blank" rel="noopener noreferrer">
+              View on LinkedIn
+            </a>
+          </div>
+
+          <div class="internship-list">
+            <div class="internship-item">
+              <div class="internship-dot"></div>
+              <div>
+                <h4>Twlight IT Solutions</h4>
+                <p>Web Development Internship</p>
+              </div>
+            </div>
+
+            <div class="internship-item">
+              <div class="internship-dot"></div>
+              <div>
+                <h4>Eduskill Virtual Internship</h4>
+                <p>Google AI/ML</p>
+              </div>
+            </div>
+
+            <div class="internship-item">
+              <div class="internship-dot"></div>
+              <div>
+                <h4>Pursuit Future Technologies</h4>
+                <p>Web Development Internship</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <p class="kicker center">Get In Touch</p>
+        <h2 class="section__title center">Contact Me</h2>
+
+        <form class="form" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="firstName">First Name</label>
+              <input id="firstName" name="firstName" type="text" placeholder="Kaaviya" required minlength="2" />
+              <small class="error"></small>
+            </div>
+
+            <div class="field">
+              <label for="lastName">Last Name</label>
+              <input id="lastName" name="lastName" type="text" placeholder="Ramesh" required minlength="1" />
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="kaaviyaramesh346@gmail.com" required />
+              <small class="error"></small>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" placeholder="+91 9342777166"
+                     required pattern="^(\+91[\-\s]?)?[6-9]\d{9}$" />
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Type your message..." required minlength="10"></textarea>
+            <small class="error"></small>
+          </div>
+
+          <button class="btn btn--primary form__submit" type="submit">
+            <span>Submit</span>
+            <svg class="btn__loader" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" stroke-dasharray="50" stroke-dashoffset="25"/>
+            </svg>
+          </button>
+
+          <p class="form__note">
+            Note: This form validates in the browser. To actually receive messages, connect EmailJS or Formspree.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__left">
+        <p class="footer__brand">Kaaviya Ramesh</p>
+        <p class="footer__soft">Java • Web Development • ML</p>
+      </div>
+      <div class="footer__right">
+        <p>© <span id="year"></span> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+      <path d="M15 12.5L10 7.5L5 12.5" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
